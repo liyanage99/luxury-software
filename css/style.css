@@ -75,22 +75,19 @@ header{
 .logo{
     display:flex;
     align-items:center;
-    gap:10px;
-    font:600 1.3rem var(--serif);
-    color:var(--ink)
 }
 
 .logo img{
     height:60px;
     width:auto;
     display:block;
-    object-fit:contain
+    object-fit:contain;
 }
 
-.logo svg{
+/* .logo svg{
     width:36px;
     height:36px
-}
+} */
 
 .menu{
     display:flex;

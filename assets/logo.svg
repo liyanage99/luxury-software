@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <rect width="1600" height="1000" fill="#ffffff"/>
+  <g transform="translate(470 100)">
+    <!-- L monogram -->
+    <path d="M40 40 V300 Q40 370 110 370 H300 L250 315 H145 Q105 315 105 275 V40 Z" fill="#ff7a00"/>
+    <!-- T monogram -->
+    <path d="M300 40 H600 L555 95 H465 V370 H390 V95 H255 Z" fill="#171717"/>
+    <!-- circuit traces -->
+    <g fill="none" stroke="#ff7a00" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M465 135 H525 L555 105 H640"/>
+      <path d="M465 190 H545 L575 160 H650"/>
+      <path d="M465 245 H535 L565 215 H625"/>
+    </g>
+    <g fill="#fff" stroke="#ff7a00" stroke-width="10">
+      <circle cx="640" cy="105" r="15"/><circle cx="650" cy="160" r="15"/><circle cx="625" cy="215" r="15"/>
+    </g>
+  </g>
+  <!-- wordmark -->
+  <g font-family="Montserrat, Arial, Helvetica, sans-serif" font-weight="800" font-size="170" letter-spacing="2">
+    <text x="800" y="650" text-anchor="middle" fill="#171717">LUX</text>
+    <text x="930" y="650" text-anchor="middle" fill="#ff7a00">X</text>
+    <text x="1040" y="650" text-anchor="middle" fill="#171717">URY</text>
+  </g>
+  <!-- clean replacement of overlapping X positioning -->
+  <rect x="690" y="515" width="220" height="155" fill="#fff"/>
+  <text x="800" y="650" text-anchor="middle" font-family="Montserrat, Arial, Helvetica, sans-serif" font-weight="800" font-size="170" letter-spacing="2" fill="#171717">LU</text>
+  <text x="930" y="650" text-anchor="middle" font-family="Montserrat, Arial, Helvetica, sans-serif" font-weight="800" font-size="170" fill="#ff7a00">X</text>
+  <text x="1090" y="650" text-anchor="middle" font-family="Montserrat, Arial, Helvetica, sans-serif" font-weight="800" font-size="170" letter-spacing="2" fill="#171717">URY</text>
+  <!-- subtitle -->
+  <text x="800" y="755" text-anchor="middle" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="58" font-weight="500" letter-spacing="22" fill="#ff7a00">IT SOLUTIONS</text>
+</svg>
